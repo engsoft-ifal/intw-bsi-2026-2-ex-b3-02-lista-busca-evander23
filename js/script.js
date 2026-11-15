@@ -27,4 +27,4 @@ if (filtrado.length === 0) {
  }
 }
 render();
-busca.addEventlistener("input", () => render(busca.value));
+busca.addEventListener("input", () => render(busca.value));
